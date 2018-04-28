@@ -1,10 +1,10 @@
 # Site settings
-title: BY Blog
-SEOTitle: 梦幻星空的博客 | BY Blog
+title: Blog | MHXK Blog 
+SEOTitle: 梦幻星空的博客 | MHXK Blog | 技术博客 | 前端开发 | React | Angular | VUE
 header-img: img/post-bg-desk.jpg
 email: 799316652@qq.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 梦幻星空的博客, zhaozhanzhan, 赵展展, 前端, Angular, Vue, Ionic, iOS, Apple, iPhone"
+keyword: "MHXK, MHXK Blog, 梦幻星空的博客, Angular, 前端, Angular, Vue, Ionic, iOS, Apple, iPhone"
 url: "http://zhaozhanzhan.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/zhaozhanzhan/zhaozhanzhan.github.io.git" # you code repository
@@ -15,17 +15,14 @@ sidebar-about-description: "Goals determine what you going to be!"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
-
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
+weibo_username:     z眼泪成诗z
 zhihu_username:     zhao-zhan-zhan-39
 github_username:    zhaozhanzhan
 #facebook_username:  baiying.qiu.7
 jianshu_username:   7f519c0b2dfc
-#twitter_username:   qiubaiying
-
-
+twitter_username:   B0OoScEkQbucZWa
 
 
 # Build settings
@@ -51,7 +48,7 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+input: GFM                            # use Github Flavored Markdown !important
 
 
 
@@ -61,13 +58,13 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: false    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: zhaozhanzhan.github.io    #仓库名称
-  owner: zhaozhanzhan    #github用户名
-  admin: zhaozhanzhan
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+enable: false    #是否开启Gitalk评论
+clientID: f2c84e7629bb1446c1a4                            #生成的clientID
+clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+repo: zhaozhanzhan.github.io    #仓库名称
+owner: zhaozhanzhan    #github用户名
+admin: zhaozhanzhan
+distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
@@ -99,9 +96,6 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
-    },{
         title: "简书·BY",
         href: "http://www.jianshu.com/u/e71990ada2fd"
     },{
