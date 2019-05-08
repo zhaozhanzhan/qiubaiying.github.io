@@ -200,7 +200,7 @@ bigrender 通过减少 DOM 节点，加快首屏的渲染，但是，它也是�
 
 如果要做一个完整的 BigRender demo，可能比较复杂，还要涉及到后端。
 
-之前学习 lazyload 时做过一个图片的延迟加载 demo，see <http://hanzichi.github.io/2015/picture-lazyload/>。因为 BigRender 是 lazyload 的加强版，所以简单地做了个 BigRender 版本的图片延迟加载 <http://hanzichi.github.io/2016/bigrender/>，实现的具体代码可以 check <https://github.com/hanzichi/hanzichi.github.io/tree/master/2016/bigrender>。求 star，求 fork~
+之前学习 lazyload 时做过一个图片的延迟加载 demo，see <http://zhaozhanzhan.github.io/demo/2015/picture-lazyload/>。因为 BigRender 是 lazyload 的加强版，所以简单地做了个 BigRender 版本的图片延迟加载 <http://zhaozhanzhan.github.io/demo/2016/bigrender/>，实现的具体代码可以 check <https://github.com/hanzichi/zhaozhanzhan.github.io/demo/tree/master/2016/bigrender>。求 star，求 fork~
 
 
 # 其他

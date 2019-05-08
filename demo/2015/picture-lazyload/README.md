@@ -98,7 +98,7 @@ function lazyload() {
 
 有的时候并不能当图片刚好在可视区域的时候再去加载，而要稍微 "预加载"，可以调整下 lazyload() 函数中的 lazy 参数。
 
-如果 "生硬" 地显示图片体验不大好，也可以搞点淡出效果，具体就不说了，可以看完整代码 [Github](https://github.com/hanzichi/hanzichi.github.io/tree/master/2015/picture-lazyload)
+如果 "生硬" 地显示图片体验不大好，也可以搞点淡出效果，具体就不说了，可以看完整代码 [Github](https://github.com/hanzichi/zhaozhanzhan.github.io/demo/tree/master/2015/picture-lazyload)
 
 这样，一个简单的图片惰性加载 DEMO 就完成了！
 

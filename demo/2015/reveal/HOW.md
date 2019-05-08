@@ -1,6 +1,6 @@
 废话不多说，先上demo（建议在chrome下打开 F键全屏 esc退出全屏）：
 
-1. [我的demo-博客园简介](http://hanzichi.github.io/2015/reveal/cnblogs.html#/)
+1. [我的demo-博客园简介](http://zhaozhanzhan.github.io/demo/2015/reveal/cnblogs.html#/)
 2. [官网demo](http://lab.hakim.se/reveal-js/#/)
 3. [更多demo](https://github.com/hakimel/reveal.js/wiki/Example-Presentations)
 
@@ -8,7 +8,7 @@
 
 言归正传，首先因为它本质上就是页面，所以它的各种效果（比如翻页、全屏、放大）等都是基于JavaScript框架的，幸运的是这些框架都已经完全封装好了（如果需要你可以调用它的API），你只需要编写每个slide页面的代码就可以了，而这些代码就是简单的html了，甚至可以用markdown来编写。
 
-接着进入实战，该项目的代码托管在[github](https://github.com/hakimel/reveal.js)里，除去其他一些引用的js、css文件，就只剩下一个简单的index页面了，可以看我整理的[模板文件](https://github.com/hanzichi/hanzichi.github.io/blob/master/2015/reveal/template.html)（模板文件效果预览点击[这里](http://hanzichi.github.io/2015/reveal/template.html#/)，如果你需要，可以直接拿它来进行修改。
+接着进入实战，该项目的代码托管在[github](https://github.com/hakimel/reveal.js)里，除去其他一些引用的js、css文件，就只剩下一个简单的index页面了，可以看我整理的[模板文件](https://github.com/hanzichi/zhaozhanzhan.github.io/demo/blob/master/2015/reveal/template.html)（模板文件效果预览点击[这里](http://zhaozhanzhan.github.io/demo/2015/reveal/template.html#/)，如果你需要，可以直接拿它来进行修改。
 
 ### 1、每个slide的编写
 
@@ -186,9 +186,9 @@ backgroundTransition: 'zoom', // none/fade/slide/convex/concave/zoom
 
 html页面在chrome里可以被保存为pdf文件（打印选项中），很显然我们的slides也是html页面，只要把所有的slides显示在一个html页面中就ok了。这里我们可以改下url，加上`print-pdf`就可以了，实际上就是执行了一段代码，改变了文件的样式，接着就可以“打印”成pdf了。
 
-例如将[我的demo](http://hanzichi.github.io/reveal/fish.html#/)的url改成`http://hanzichi.github.io/reveal/fish.html?print-pdf`，可能在当前页面预览时样式会有点问题，但是在chrome下打开打印选项（ctrl+p），就能愉快地转换成PDF了。
+例如将[我的demo](http://zhaozhanzhan.github.io/demo/reveal/fish.html#/)的url改成`http://zhaozhanzhan.github.io/demo/reveal/fish.html?print-pdf`，可能在当前页面预览时样式会有点问题，但是在chrome下打开打印选项（ctrl+p），就能愉快地转换成PDF了。
 
-我也把我的demo导成了PDF，点击[这里](https://github.com/hanzichi/hanzichi.github.io/blob/master/reveal/reveal.pdf)查看效果
+我也把我的demo导成了PDF，点击[这里](https://github.com/hanzichi/zhaozhanzhan.github.io/demo/blob/master/reveal/reveal.pdf)查看效果
 
 ### 5、总结
 

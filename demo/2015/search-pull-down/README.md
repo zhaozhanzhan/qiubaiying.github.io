@@ -1,4 +1,4 @@
-最终效果（chrome 下）： [搜索框下拉 demo](http://hanzichi.github.io/2015/search-pull-down/index.h5.html)
+最终效果（chrome 下）： [搜索框下拉 demo](http://zhaozhanzhan.github.io/demo/2015/search-pull-down/index.h5.html)
 
 今天就来简单讲解下如何做这样一个类似百度搜索框的下拉效果。
 
@@ -101,7 +101,7 @@ function fn(data) {
 
 其实做出效果并不难，个人觉得 demo 的难度是要兼容，特别是兼容 ie6 这样坑爹的浏览器，一些高级 api 不能用，甚至连 hover 都不支持。所以这只是上篇，给出一个具体的思路，而下篇则会进行兼容性的修改，代码会大换血的感觉。
 
-源码参考：[搜索框下拉 demo 源码](https://github.com/hanzichi/hanzichi.github.io/blob/master/2015/search-pull-down/index.h5.html)
+源码参考：[搜索框下拉 demo 源码](https://github.com/hanzichi/zhaozhanzhan.github.io/demo/blob/master/2015/search-pull-down/index.h5.html)
 
 ***
 
@@ -110,9 +110,9 @@ function fn(data) {
 
 本来是打算另起一篇讲讲兼容性的，但是觉得没有必要也不浪费篇目了。
 
-兼容代码效果预览： [搜索框下拉 demo](http://hanzichi.github.io/2015/search-pull-down/index.ie6.html)
+兼容代码效果预览： [搜索框下拉 demo](http://zhaozhanzhan.github.io/demo/2015/search-pull-down/index.ie6.html)
 
-源代码可以参考： [搜索框下拉 demo 兼容ie6 源码](https://github.com/hanzichi/hanzichi.github.io/blob/master/2015/search-pull-down/index.ie6.html)
+源代码可以参考： [搜索框下拉 demo 兼容ie6 源码](https://github.com/hanzichi/zhaozhanzhan.github.io/demo/blob/master/2015/search-pull-down/index.ie6.html)
 
 其实要做到兼容性，做到如下几条即可。
 
@@ -132,4 +132,4 @@ function fn(data) {
 ### 再更（2015-10-13） ###
 ***
 
-今天把源码又优化了下，table 元素自动生成，这样不用写死 10 个 tr（td）元素了。代码放在 [github](https://github.com/hanzichi/hanzichi.github.io/blob/master/2015/search-pull-down/index.ie6.update.html) 了。
+今天把源码又优化了下，table 元素自动生成，这样不用写死 10 个 tr（td）元素了。代码放在 [github](https://github.com/hanzichi/zhaozhanzhan.github.io/demo/blob/master/2015/search-pull-down/index.ie6.update.html) 了。
