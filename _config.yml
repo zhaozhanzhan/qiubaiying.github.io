@@ -1,6 +1,6 @@
 # Site settings
 title: 一世芳华的博客 #你博客的标题
-SEOTitle: 一世芳华的博客 | YSFH Blog | 技术博客 | 前端开发 | React | Angular | VUE #显示在浏览器上搜索的时候显示的标题
+SEOTitle: 一世芳华的博客 | YSFH Blog | 技术博客 | 前端 | Angular | Vue | React | Ionic | Flutter | Webpack | Android | HTML5 | CSS3 | IOS #显示在浏览器上搜索的时候显示的标题
 header-img: img/post-bg-desk.jpg #显示在首页的背景图片
 email: 799316652@qq.com
 description: ""
