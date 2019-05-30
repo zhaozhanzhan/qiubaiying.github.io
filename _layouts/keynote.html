@@ -92,8 +92,8 @@ layout: default
                 {% if site.gitalk.enable %}
                 <!-- Gitalk link  -->
                 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-                <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-                <script src="/js/md5.min.js"></script>
+                <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+                <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
 
                 <div id="gitalk-container"></div>
                 <script type="text/javascript">
@@ -103,11 +103,10 @@ layout: default
                         repo: '{{site.gitalk.repo}}',
                         owner: '{{site.gitalk.owner}}',
                         admin: ['{{site.gitalk.admin}}'],
-                        distractionFreeMode: '{{site.gitalk.distractionFreeMode}}',
-                        id: md5(window.location.pathname)
+                        id: md5(window.location.pathname),
+                        distractionFreeMode: true
                     });
                     gitalk.render('gitalk-container');
-                    console.error(md5(window.location.pathname));
                 </script>
                 {% endif %}
                 <!-- Gitalk end -->
